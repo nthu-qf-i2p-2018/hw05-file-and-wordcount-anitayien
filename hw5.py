@@ -7,7 +7,7 @@ from collections import Counter
 
 def main(filename):
     # read file into lines
-    lines = open("filename.txt").readlines()
+    lines = open(filename).readlines()
 
     # declare a word list
     all_words = []
